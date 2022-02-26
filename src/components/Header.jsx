@@ -1,23 +1,19 @@
-import github from '../img/png/github.png'
-import linkedin from '../img/png/linkedin.png'
-import whatsapp from '../img/png/whatsapp.png'
-
 //import css
 import '../Sass/Header.css'
 
 const Header = () => {
     return (
-        <nav className='navbar'>
-            <p>ZANDROCR</p>
-            <ul className='d-flex '>
-                <li>
-                    <img src={github} alt="github" className='social-media' />
+        <nav className='navbar d-flex flex-md-row flex-column'>
+            <p className='text1'>ZANDROCR</p>
+            <ul className='d-flex list'>
+                <li className='text1 link'>
+                    Sobre
                 </li>
-                <li>
-                    <img src={linkedin} alt="linkedin" className='social-media' />
+                <li className='text1 link'>
+                    Portfolio
                 </li>
-                <li>
-                    <img src={whatsapp} alt="whatsapp" className='social-media' />
+                <li className='text1 link'>
+                    Contatos
                 </li>
             </ul>
         </nav>

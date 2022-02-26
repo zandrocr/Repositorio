@@ -1,4 +1,20 @@
-.social-media {
-  width: 5vh;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Roboto:wght@100&display=swap");
+.text1 {
+  font-family: 'Outfit';
+  font-weight: bold;
+  letter-spacing: 11px;
+}
+
+.navbar {
+  margin-top: 2vh;
+}
+
+.link {
+  margin-right: 5vh;
+  cursor: pointer;
+}
+
+.link:nth-child(3) {
+  margin-right: 0vh;
 }
 /*# sourceMappingURL=Header.css.map */
