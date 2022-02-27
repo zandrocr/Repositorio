@@ -18,10 +18,10 @@ const Main = () => {
             </p>
         </div>
         <div>
-            <a href="https://github.com/zandrocr">
+            <a target="_blank" href="https://github.com/zandrocr">
                 <VscGithub className='media'/>
             </a>
-            <a href="https://www.linkedin.com/in/zandrocr/">
+            <a target="_blank" href="https://www.linkedin.com/in/zandrocr/">
                 <BsLinkedin className='media'/>
             </a>
         </div>

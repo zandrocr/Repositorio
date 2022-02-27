@@ -16,13 +16,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2vh;
+}
+
+.list {
+  width: 50vh;
 }
 
 .link {
-  margin-right: 8vh;
   cursor: pointer;
   color: black;
   letter-spacing: 64px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 1vh;
+}
+
+.link:hover {
+  color: white;
+  background-color: black;
 }
 
 .link:nth-child(3) {

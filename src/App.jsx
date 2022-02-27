@@ -11,11 +11,9 @@ function App() {
 
   return (
     <div className="App container">
-      <span>
         <Back />
         <Header />
         <Main />
-      </span>
     </div>
   )
 }
