@@ -5,8 +5,18 @@ import { VscGithub } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs"
 
 const Main = () => {
+
     return ( <main className='d-flex flex-column justify-content-around'>
-        <div>
+        <div className='d-flex justify-content-around'>
+            <a target="_blank" href="https://github.com/zandrocr">
+                <VscGithub className='lg media'/>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/zandrocr/">
+                <BsLinkedin className='lg media'/>
+            </a>
+        </div>
+
+        <div className='d-flex flex-column justify-content-around'>
             <p className='text2'>
                 Eae,
             </p>
@@ -19,10 +29,10 @@ const Main = () => {
         </div>
         <div>
             <a target="_blank" href="https://github.com/zandrocr">
-                <VscGithub className='media'/>
+                <VscGithub className='gl media'/>
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/zandrocr/">
-                <BsLinkedin className='media'/>
+                <BsLinkedin className='gl media'/>
             </a>
         </div>
     </main> );

@@ -3,9 +3,11 @@
 main
     height: 90vh
 
+    .lg
+        margin-left: 10vh
+
     .media
         font-size: 30px
-        position: relative
         transition: .3s
 
     .media:hover
@@ -23,4 +25,16 @@ main
 
 .text2:nth-child(3)
     font-size: 30px
+
+@media (min-width:992px)
+    .lg
+        display: none
+
+@media (max-width:992px)
+    .gl
+        display: none
+
+
+
+
 

@@ -4,9 +4,9 @@ import ale from '../img/png/ale.png'
 import '../Sass/Back.css'
 
 const Back = () => {
-    return ( <>
-        <img src={ale} alt="ale" className='col-12 col-md-6'/>
-    </> );
+    return ( <div className='back d-flex justify-content-center'>
+        <img src={ale} alt="ale" className='col-6'/>
+    </div> );
 }
 
 export default Back;

@@ -6,4 +6,13 @@ img, alt[ale] {
   width: 100vh;
   height: 100vh;
 }
+
+@media (max-width: 991px) {
+  img, alt[ale] {
+    position: relative;
+    width: 30vh;
+    height: 50vh;
+    border-radius: 50% 10% 50% 10%;
+  }
+}
 /*# sourceMappingURL=Back.css.map */
