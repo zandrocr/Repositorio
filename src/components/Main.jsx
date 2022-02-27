@@ -7,7 +7,7 @@ import { BsLinkedin } from "react-icons/bs"
 const Main = () => {
 
     return ( <main className='d-flex flex-column justify-content-around'>
-        <div className='d-flex justify-content-around'>
+        <div className='top d-flex justify-content-around'>
             <a target="_blank" href="https://github.com/zandrocr">
                 <VscGithub className='lg media'/>
             </a>

@@ -10,7 +10,7 @@ img, alt[ale] {
 @media (max-width: 991px) {
   img, alt[ale] {
     position: relative;
-    width: 30vh;
+    margin-top: 10vh;
     height: 50vh;
     border-radius: 50% 10% 50% 10%;
   }
