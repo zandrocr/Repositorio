@@ -18,6 +18,7 @@ img, alt[ale] {
 @media (max-width: 720px){
   img, alt[ale] {
    height: 50vh;
+   margin-top: 10vh;
   }
 }
 
