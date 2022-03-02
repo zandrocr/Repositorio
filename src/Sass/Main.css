@@ -59,5 +59,17 @@ main a {
   .gl {
     display: none;
   }
+  main {
+    margin-top: 7vh;
+  }
+  .textMain {
+    margin-top: 7vh;
+  }
+}
+
+@media (max-width: 349px) {
+  main {
+    margin-top: 12vh;
+  }
 }
 /*# sourceMappingURL=Main.css.map */
