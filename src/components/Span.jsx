@@ -15,7 +15,7 @@ const Span = () => {
                     O site tem como ponto, um estilo mais limpo e simplista, criado para o intuito de demonstrar a qualidade dos produtos e incentivar a utilização do serviço pelas pessoas que o procuram.
                 </p>
                 <a target='_blank' className="d-flex justify-content-center" href="https://github.com/zandrocr/KiDelicia-TiaMaria">
-                    <FaGithubSquare className='gl media'/>
+                    <FaGithubSquare className='media'/>
                 </a>
             </div>
 
