@@ -52,6 +52,10 @@ main a {
   font-size: 30px;
 }
 
+.mediaSm{
+  margin-top: 5vh;
+}
+
 @media (min-width: 992px) {
   .lg {
     display: none;

@@ -31,7 +31,7 @@ const Main = () => {
                     <img src={ale} alt="ale" className='col-8 col-lg-12'/>
                 </span>
 
-                <div className='d-flex justify-content-around'>
+                <div className='mediaSm d-flex justify-content-around'>
                     <a target="_blank" href="https://github.com/zandrocr">
                         <VscGithub className='lg media'/>
                     </a>
