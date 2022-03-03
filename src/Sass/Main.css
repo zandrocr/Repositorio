@@ -66,11 +66,11 @@ main a {
   .gl {
     display: none;
   }
-  main {
+  .textMain {
     margin-top: 5vh;
   }
-  .textMain {
-    margin-top: 7vh;
+  .mediaSm {
+    margin-top: 5vh;
   }
 }
 /*# sourceMappingURL=Main.css.map */
