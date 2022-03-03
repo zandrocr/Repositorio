@@ -11,6 +11,16 @@
   font-size: 18px;
 }
 
+.media {
+  font-size: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.media .media:hover {
+  color: #007e94;
+}
+
 main {
   height: 90vh;
 }
@@ -23,14 +33,7 @@ main .lg {
   margin-left: 10vh;
 }
 
-main .media {
-  font-size: 30px;
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
 main .media:hover {
-  color: #007e94;
   font-size: 50px;
   padding: -5vh;
   margin: -1.5vh;

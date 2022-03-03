@@ -13,7 +13,7 @@ const Main = () => {
 
     return (
     <main className='d-flex flex-column justify-content-evenly'>
-        <span className='d-flex flex-column-reverse flex-lg-row justify-content-around'>
+        <div className='d-flex flex-column-reverse flex-lg-row justify-content-around'>
             <div className='textMain d-flex flex-column justify-content-center'>
                 <p className='text2'>
                     Eae,
@@ -41,7 +41,7 @@ const Main = () => {
                 </div>
             </div>
 
-        </span>
+        </div>
 
         <div className='d-flex'>
             <a target="_blank" href="https://github.com/zandrocr">

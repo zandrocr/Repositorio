@@ -11,6 +11,16 @@
   font-size: 18px;
 }
 
+.media {
+  font-size: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.media .media:hover {
+  color: #007e94;
+}
+
 .navbar {
   text-align: center;
   -webkit-box-align: center;
