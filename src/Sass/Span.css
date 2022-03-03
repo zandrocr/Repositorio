@@ -3,12 +3,14 @@
   font-family: 'Outfit', sans-serif;
   font-weight: bold;
   letter-spacing: 11px;
+  cursor: default;
 }
 
 .text2 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
   font-size: 18px;
+  cursor: default;
 }
 
 .media {
@@ -22,7 +24,19 @@
   color: #00a0bd;
 }
 
+.textPortfolio {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  cursor: default;
+  letter-spacing: 1px;
+}
+
 .portfolio {
   margin-top: 10vh;
+}
+
+.video {
+  border: .3vh solid white;
+  border-radius: 1vh;
 }
 /*# sourceMappingURL=Span.css.map */
