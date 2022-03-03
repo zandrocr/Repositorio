@@ -12,13 +12,14 @@
 }
 
 .media {
+  color: white;
   font-size: 30px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-.media .media:hover {
-  color: #007e94;
+.media:hover {
+  color: #00a0bd;
 }
 
 main {
@@ -50,10 +51,6 @@ main a {
 
 .text2:nth-child(3) {
   font-size: 30px;
-}
-
-.mediaSm{
-  margin-top: 5vh;
 }
 
 @media (min-width: 992px) {

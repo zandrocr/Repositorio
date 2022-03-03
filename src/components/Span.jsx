@@ -8,17 +8,20 @@ import { FaGithubSquare } from "react-icons/fa"
 
 const Span = () => {
     return (
-        <span className="portfolio d-flex justify-content-between">
-            <div className="d-flex justify-content-center">
-                <p>
-
+        <span className="portfolio d-flex flex-column flex-lg-row justify-content-between">
+            <div className="col-6 d-flex flex-column justify-content-center">
+                <p className="">
+                Desenvolvido para divulgação e apresentação dos trabalhos efetuados pela pequena, mais porém empenhada, a empresa trás a variedade de pratos e e tipos de festas já feitos pela mesma.
+                O site tem como ponto, um estilo mais limpo e simplista, criado para o intuito de demonstrar a qualidade dos produtos e incentivar a utilização do serviço pelas pessoas que o procuram.
                 </p>
-                <a target='_blank' className="media" href="https://github.com/zandrocr/KiDelicia-TiaMaria">
+                <a target='_blank' className="d-flex justify-content-center" href="https://github.com/zandrocr/KiDelicia-TiaMaria">
                     <FaGithubSquare className='gl media'/>
                 </a>
             </div>
 
-            <ReactPlayer url='https://www.youtube.com/watch?v=Y5aQc0ElcMk&ab_channel=ZANDROCR' />
+            <div className='d-flex justify-content-center col-12 col-lg-6'>
+                <ReactPlayer url='https://www.youtube.com/watch?v=Y5aQc0ElcMk&ab_channel=ZANDROCR' />
+            </div>
         </span>
      );
 }

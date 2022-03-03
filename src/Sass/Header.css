@@ -12,13 +12,14 @@
 }
 
 .media {
+  color: white;
   font-size: 30px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-.media .media:hover {
-  color: #007e94;
+.media:hover {
+  color: #00a0bd;
 }
 
 .navbar {

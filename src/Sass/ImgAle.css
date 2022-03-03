@@ -14,13 +14,4 @@ img, alt[ale] {
     border-radius: 50% 10% 50% 10%;
   }
 }
-
-@media (max-width: 720px){
-  img, alt[ale] {
-   height: 50vh;
-   margin-top: 10vh;
-  }
-}
-
-
 /*# sourceMappingURL=ImgAle.css.map */
