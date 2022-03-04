@@ -6,8 +6,9 @@ import '../Sass/ImgAle.css'
 import ale from '../img/png/ale.png'
 
 //import icons
-import { VscGithub } from "react-icons/vsc";
-import { BsLinkedin } from "react-icons/bs"
+import { SiCss3, SiHtml5, SiJavascript, SiJquery, SiReact } from "react-icons/si";
+import { BsFillBootstrapFill } from 'react-icons/bs';
+import { IoLogoSass } from 'react-icons/io';
 
 const Main = () => {
 
@@ -31,13 +32,28 @@ const Main = () => {
                     <img src={ale} alt="ale" className='col-8 col-lg-12'/>
                 </span>
 
-                <div className='mediaSm d-flex justify-content-around'>
-                    <a target="_blank" href="https://github.com/zandrocr">
-                        <VscGithub className='lg media'/>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/zandrocr/">
-                        <BsLinkedin className='lg media'/>
-                    </a>
+                <div className='mediaM d-flex justify-content-around'>
+                    <p>
+                        <SiHtml5 className='lg h media'/>
+                    </p>
+                    <p>
+                        <SiCss3 className='lg c media'/>
+                    </p>
+                    <p>
+                        <SiJavascript className='lg j media'/>
+                    </p>
+                    <p>
+                        <SiJquery className='lg q media'/>
+                    </p>
+                    <p>
+                        <BsFillBootstrapFill className='lg b media'/>
+                    </p>
+                    <p>
+                        <SiReact className='lg r media'/>
+                    </p>
+                    <p>
+                        <IoLogoSass className='lg s media'/>
+                    </p>
                 </div>
             </div>
 
@@ -45,10 +61,7 @@ const Main = () => {
 
         <div className='d-flex'>
             <a target="_blank" href="https://github.com/zandrocr">
-                <VscGithub className='gl media'/>
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/in/zandrocr/">
-                <BsLinkedin className='gl media'/>
+                <SiHtml5 className='gl media'/>
             </a>
         </div>
     </main> );

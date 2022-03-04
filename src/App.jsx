@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header'
 import Main from './components/Main'
 import Span from './components/Span'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Main />
         <Span />
+        <Footer />
     </div>
   )
 }

@@ -9,7 +9,6 @@
 .text2 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  font-size: 18px;
   cursor: default;
 }
 
@@ -29,6 +28,12 @@
   font-size: 20px;
   cursor: default;
   letter-spacing: 1px;
+}
+
+.line {
+  margin-top: 5vh;
+  background-color: white;
+  height: .3vh;
 }
 
 .navbar {

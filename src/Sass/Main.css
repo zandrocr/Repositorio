@@ -9,7 +9,6 @@
 .text2 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  font-size: 18px;
   cursor: default;
 }
 
@@ -31,7 +30,13 @@
   letter-spacing: 1px;
 }
 
-main .mediaSm {
+.line {
+  margin-top: 5vh;
+  background-color: white;
+  height: .3vh;
+}
+
+main .mediaM {
   margin-top: 10vh;
 }
 
@@ -42,6 +47,36 @@ main .lg {
 main a {
   color: white;
   margin-right: 10vh;
+}
+
+main .media {
+  font-size: 40px;
+  margin-left: 0vh;
+}
+
+main .h:hover {
+  color: #ff9100;
+}
+
+main .c:hover {
+  color: #0066ff;
+}
+
+main .j:hover {
+  color: #fbff00;
+  background-color: black;
+}
+
+main .q:hover {
+  color: #0400e0;
+}
+
+main .b:hover {
+  color: #6600a1;
+}
+
+main .s:hover {
+  color: #ff85eb;
 }
 
 .text2:nth-child(1) {
@@ -69,8 +104,8 @@ main a {
   .textMain {
     margin-top: 5vh;
   }
-  .mediaSm {
-    margin-top: -10vh;
+  main .mediaM {
+    margin-top: 8vh;
   }
 }
 /*# sourceMappingURL=Main.css.map */
