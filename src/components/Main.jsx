@@ -59,10 +59,28 @@ const Main = () => {
 
         </div>
 
-        <div className='d-flex'>
-            <a target="_blank" href="https://github.com/zandrocr">
-                <SiHtml5 className='gl media'/>
-            </a>
+        <div className='d-flex col-lg-6 justify-content-around'>
+            <p>
+                <SiHtml5 className='gl h media'/>
+            </p>
+            <p>
+                <SiCss3 className='gl c media'/>
+            </p>
+            <p>
+                <SiJavascript className='gl j media'/>
+            </p>
+            <p>
+                <SiJquery className='gl q media'/>
+            </p>
+            <p>
+                <BsFillBootstrapFill className='gl b media'/>
+            </p>
+            <p>
+                <SiReact className='gl r media'/>
+            </p>
+            <p>
+                <IoLogoSass className='gl s media'/>
+            </p>
         </div>
     </main> );
 }
