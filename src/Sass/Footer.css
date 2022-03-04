@@ -36,6 +36,31 @@
   height: .3vh;
 }
 
+.h:hover {
+  color: #ff9100;
+}
+
+.c:hover {
+  color: #0066ff;
+}
+
+.j:hover {
+  color: #fbff00;
+  background-color: black;
+}
+
+.q:hover {
+  color: #0400e0;
+}
+
+.b:hover {
+  color: #6600a1;
+}
+
+.s:hover {
+  color: #ff85eb;
+}
+
 footer {
   margin-top: 20vh;
   margin-bottom: 5vh;

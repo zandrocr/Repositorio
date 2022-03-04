@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //import components
 import Header from './components/Header'
 import Main from './components/Main'
-import Span from './components/Span'
+import KiDelicia from './components/Portfolio/KiDelicia'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div className="App container">
         <Header />
         <Main />
-        <Span />
+        <KiDelicia />
         <Footer />
     </div>
   )
