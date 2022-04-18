@@ -1,7 +1,6 @@
 //import css
-import './Sass/App.css'
+import '../src/css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 //import components
 import Header from './components/Header'
 import Main from './components/Main'

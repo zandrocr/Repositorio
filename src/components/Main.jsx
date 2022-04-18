@@ -1,10 +1,8 @@
 //import css
-import '../Sass/Main.css'
-import '../Sass/ImgAle.css'
-
+import '../css/Main.css'
+import '../css/ImgAle.css'
 //import png
 import ale from '../img/png/ale.png'
-
 //import icons
 import { SiCss3, SiHtml5, SiJavascript, SiJquery, SiReact } from "react-icons/si";
 import { BsFillBootstrapFill } from 'react-icons/bs';
@@ -29,7 +27,7 @@ const Main = () => {
 
             <div className='back d-flex flex-column justify-content-center'>
                 <span className='d-flex justify-content-center'>
-                    <img src={ale} alt="ale" className='col-8 col-lg-12'/>
+                    <img src={ale} alt="ale" className='col-12 '/>
                 </span>
 
                 <div className='mediaM d-flex justify-content-around'>

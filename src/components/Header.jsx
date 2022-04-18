@@ -1,5 +1,5 @@
 //import css
-import '../Sass/Header.css'
+import '../css/Header.css'
 
 const Header = () => {
     return (

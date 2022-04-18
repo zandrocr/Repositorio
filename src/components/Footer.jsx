@@ -3,13 +3,17 @@ import { VscGithub } from "react-icons/vsc";
 import { FaWhatsappSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 //import css
-import '../Sass/Footer.css'
+import '../css/Footer.css'
 
 const Footer = () => {
     return (
         <footer>
             <div className='d-flex flex-column justify-content-around'>
-                <div className='d-flex col-lg-2 justify-content-between'>
+                <div className="end">
+                    <h2>Então vamos</h2>
+                    <p className="fras">Bora trabalhar juntos na quele projeto que você está guardado no fundo da gaveta!</p>
+                </div>
+                <div className='medias d-flex col-lg-2 justify-content-between'>
                     <a target="_blank" href="https://github.com/zandrocr">
                         <FaGithubSquare className='media'/>
                     </a>

@@ -1,7 +1,7 @@
 import ReactPlayer from "react-player";
 
 //import css
-import '../../Sass/KiDelicia.css'
+import '../../css/KiDelicia.css'
 
 //import icons
 import { FaGithubSquare } from "react-icons/fa"
@@ -9,7 +9,7 @@ import { SiCss3, SiHtml5, SiJavascript } from "react-icons/si";
 
 const KiDelicia = () => {
     return (
-        <span className="portfolio d-flex flex-column flex-lg-row justify-content-between">
+        <span className="portfolio d-flex flex-column-reverse flex-lg-row justify-content-between">
             <div className="col-lg-5 col-12 d-flex flex-column justify-content-around">
                 <p className='textPortfolio'>
                     Desenvolvido para divulgação e apresentação dos trabalhos efetuados pela pequena, mais porém empenhada, a empresa trás a variedade de pratos e e tipos de festas já feitos pela mesma.
