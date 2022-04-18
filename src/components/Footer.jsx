@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='d-flex flex-column justify-content-around'>
                 <div className="end">
                     <h2>Então vamos</h2>
-                    <p className="fras">Bora trabalhar juntos na quele projeto que você está guardado no fundo da gaveta!</p>
+                    <p className="fras">Bora trabalhar juntos com aquele projeto que você está guardado no fundo da gaveta!</p>
                 </div>
                 <div className='medias d-flex col-lg-2 justify-content-between'>
                     <a target="_blank" href="https://github.com/zandrocr">
