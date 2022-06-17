@@ -1,0 +1,72 @@
+@import 'imports'
+
+#home
+    font-family: $merri
+
+    .page
+        padding: 2vh
+
+    img
+        border-radius: 100%
+        animation: intro 3s
+
+    h1
+        font-family: $bebas
+        font-size: 60px
+
+    h2, h3
+        font-family: $merri
+        font-size: 30px
+
+    .title
+        animation: intro 1s
+    .top
+        animation: intro 5s
+    .bottom
+        animation: intro 3s
+    .text
+        animation: intro 5s
+
+// ----- frame da animação
+
+@keyframes intro
+    0%
+        opacity: 0
+        transition: 1s
+    100%
+        opacity: 1
+        transition: 1s
+
+
+// ----- tamanhos de telas font
+
+@media screen and ( max-width: 768px )
+    #home
+        .title
+            font-size: 30px
+        .subTitle
+            font-size: 20px
+/*
+    @media screen and ( min-width: 992px )
+        .title
+            font-size: 49px
+        .subTitle
+            font-size: 36px
+
+    @media screen and ( min-width: 1200px )
+        .title
+            font-size: 50px
+        .subTitle
+            font-size: 40px
+
+    @media screen and ( min-width: 1400px )
+        .title
+            font-size: 60px
+        .subTitle
+            font-size: 50px
+
+    @media screen and ( min-width: 2560px )
+        .title
+            font-size: 110px
+        .subTitle
+            font-size: 80px
