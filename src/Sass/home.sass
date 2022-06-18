@@ -1,6 +1,7 @@
 @import 'imports'
 
 #home
+    height: fit-content
     font-family: $merri
 
     img
@@ -43,8 +44,11 @@
             font-size: 30px
         .subTitle
             font-size: 20px
+        .text
+            margin-top: 1vh
 
-@media screen and ( max-width: 525px )
-        img
-            
-            margin-top: 5vh
+@media screen and ( max-width: 576px )
+    #home
+        .page
+            padding: 2vh
+            height: fit-content
