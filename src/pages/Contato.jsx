@@ -11,7 +11,7 @@ const Contato = () => {
         <div id='contato' className='background col-12 d-flex justify-content-center'>
             <div className="page col-11 d-flex flex-column justify-content-between align-items-center">
                 <div className="col-12 d-flex flex-column align-items-center text-center">
-                    <p>Entre em contato com migo!</p>
+                    <p>Entre em contato comigo!</p>
                 </div>
                 <div className="col-12 d-flex flex-column align-items-center">
                     <p className='col-sm-8 text-center'>
