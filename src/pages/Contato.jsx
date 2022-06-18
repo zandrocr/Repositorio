@@ -33,7 +33,7 @@ const Contato = () => {
 
                 <div className="back col-12 col-sm-8 d-flex flex-column align-items-center">
                     <p>
-                        Projetado e desenvolvido por ZandroCR
+                        © Projetado e desenvolvido por ZandroCR 2022
                     </p>
                 </div>
             </div>
