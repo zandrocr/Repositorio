@@ -31,14 +31,14 @@ const Home = () => {
                     </div>
 
                     <div className='col-12 col-sm-4 d-flex flex-column align-items-center '>
-                        <img src={Yo} alt="yo" className='col-8'/>
+                        <img src={Yo} alt="yo" className='col-8 col-sm-11'/>
                     </div>
                 </div>
 
                 <div className='col-12 d-flex text-center text-sm-start justify-content-center'>
                     <p className='text col-11'>
-                        Muito praze.
-                        Atualmente estou no começo da minha jornada no mundo da programação, não literalmente começo né, já que venho queimando neuronios des de antes, porque poblemas para resolver estão ao nosso redor o tempo todo
+                        Muito prazer.
+                        Atualmente estou no começo da minha jornada no mundo da programação, não literalmente começo ne, já que venho queimando neurônios dês de antes, porque problemas para resolver estão ao nosso redor o tempo todo
                     </p>
                 </div></>}
         </div>

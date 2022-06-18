@@ -15,14 +15,14 @@ const Contato = () => {
                 </div>
                 <div className="col-12 d-flex flex-column align-items-center">
                     <p className='col-sm-8 text-center'>
-                        Eu estou sempre de olho no meu e-mail, então pode me mandar um oi, e vamos ver oque de bom podemos criar.
+                        Eu estou sempre de olho no meu e-mail, então pode me mandar um oi, e vamos ver o que de bom podemos criar.
                     </p>
                 </div>
 
                 <div className="col-12 d-flex flex-column align-items-center">
                     <a href="mailto:alezandrocosta@live.com" className='d-flex flex-column align-items-center'>
                         <img src={oculos} alt="oculos" className='col-10'/>
-                        <button>Diga, eae!</button>
+                        <button>Diga, oi!</button>
                     </a>
                 </div>
 
@@ -33,7 +33,7 @@ const Contato = () => {
 
                 <div className="back col-12 col-sm-8 d-flex flex-column align-items-center">
                     <p>
-                        Projetado e desenvolvido pro ZandroCR
+                        Projetado e desenvolvido por ZandroCR
                     </p>
                 </div>
             </div>

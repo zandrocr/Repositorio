@@ -40,7 +40,7 @@ const Habilidades = () => {
                     </div>
                     <div className='col-12 col-sm-6 text-center text-sm-start'>
                         <p>
-                            Uma parcela do meu aprendizado foi feito no <span className='textColor'>Curso em Video</span>, alguns outros videos do <span className='textColor'>youtube</span> e <span className='textColor'>pdf</span>. Procurando por como melhorar os codigos e agiizar os codigos
+                            Uma parcela do meu aprendizado foi feito no <span className='textColor'>Curso em Vídeo</span>, alguns outros vídeos do <span className='textColor'>youtube</span> e <span className='textColor'>PDF</span>. Procurando por como melhorar os códigos e agilizar eles
                         </p>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Habilidades = () => {
                     <div className='col-12 col-sm-6 text-center text-sm-start'>
                         <p>
                         Já outras coisas foram só com a unha mesmo e <span className='textColor'>documentação</span>, direto na fonte.
-                        Algumas olhas no <span className='textColor'>stack overflow</span> para não perder o costume e assim aprendemos oque precisamos.
+                        Algumas olhadas no <span className='textColor'>stack overflow</span> para não perder o costume e assim aprendemos o que precisamos.
                         </p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const Habilidades = () => {
 
                     <div className='col-12 col-sm-6 text-center text-sm-start'>
                         <p>
-                            Atualmente realizando um bootcamp na plaforma da <span className='textColor'>DIO</span> que está sendo oferecido pelo banco <span className='textColor'>Santander</span> onde vou remotar o <span className='textColor'>Java</span> e começar com o <span className='textColor'>Angula</span>
+                            Atualmente realizando um bootcamp na plataforma da <span className='textColor'>DIO</span> que está sendo oferecido pelo banco <span className='textColor'>Santander</span> onde vou retornar ao <span className='textColor'>Java</span> e começar com o <span className='textColor'>Angula</span>
                         </p>
                     </div>
                 </div>
