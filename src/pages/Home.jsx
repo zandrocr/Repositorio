@@ -16,8 +16,8 @@ const Home = () => {
 
     return (
         <div id='home' className='background col-11 d-flex justify-content-center'>
-            <div className='page col-12 d-flex flex-column justify-content-center justify-content-sm-around'>
-             {h3 &&   <> <div className='col-12 d-flex flex-column flex-sm-row align-items-center justify-content-center'>
+            <div className='page col-12 d-flex flex-column justify-content-around'>
+             {h3 &&   <> <div className='col-12 d-flex flex-column flex-sm-row align-items-center justify-content-around'>
                     <div className='col-11 col-sm-7 d-flex flex-column justify-content-center'>
                         <h3 className='subTitle top col-12'>
                             Eae, eu sou
