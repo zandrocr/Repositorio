@@ -8,10 +8,10 @@ import { FiGithub } from 'react-icons/fi'
 const ProjetoD = ({titulo, descricao, linguagens, video, lado, git}) => {
 
     return (
-    <div className='d-flex flex-column'>
+    <div className='video d-flex flex-column'>
         <h2 className='d-flex align-items-center'>{titulo}<div className='line'></div></h2>
         <div className={`d-flex flex-column ${lado} align-items-center justify-content-around`}>
-            <div className='page col-11 col-sm-5'>
+            <div className='page col-11 col-sm-4'>
                 <p>{descricao}
                 </p>
                 <span className='d-flex justify-content-between'>
@@ -21,7 +21,7 @@ const ProjetoD = ({titulo, descricao, linguagens, video, lado, git}) => {
                     <span>{linguagens}</span>
                 </span>
             </div>
-            <div className='video d-flex justify-content-center align-items-end col-11 col-sm-5'>
+            <div className='video d-flex justify-content-center align-items-end col-11 col-sm-6'>
                 <ReactPlayer controls url={video} />
             </div>
         </div>
