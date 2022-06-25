@@ -125,7 +125,7 @@ const Habilidades = () => {
 
                     <div className='col-12 col-sm-6 text-center text-sm-start'>
                         <p>
-                            Atualmente realizando um bootcamp na plataforma da <span className='textColor'>DIO</span> que está sendo oferecido pelo banco <span className='textColor'>Santander</span> onde vou retornar ao <span className='textColor'>Java</span> e começar com o <span className='textColor'>Angula</span>
+                            Atualmente realizando um bootcamp na plataforma da <span className='textColor'>DIO</span> que está sendo oferecido pelo banco <span className='textColor'>Santander</span> onde vou retornar ao <span className='textColor'>Java</span> e começar com o <span className='textColor'>Angular</span>
                         </p>
                     </div>
                 </div>
