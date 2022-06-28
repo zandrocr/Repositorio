@@ -1,13 +1,16 @@
 //import css
 import '../css/projetos.css'
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoSass} from 'react-icons/io'
+//component video
 import ProjetoD from '../components/VideoPlay';
-
+//icons
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoSass} from 'react-icons/io'
 import { BsBootstrapFill } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
 import { SiYarn, SiJson } from 'react-icons/si'
 
+
 const Projetos = () => {
+
 
     return (
         <div id='projetos' className='background col-12 d-flex justify-content-center'>
