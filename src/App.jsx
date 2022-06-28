@@ -22,10 +22,10 @@ function App() {
 	useEffect(() => {
         setTimeout(() =>{
             setLoad(true)
-        }, 2)
+        }, 2000)
 		setTimeout(() =>{
             setRedes(true)
-        }, 6)
+        }, 6000)
     }, [])
 
 	return (
