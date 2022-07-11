@@ -8,7 +8,7 @@
 
     img
         border-radius: 100%
-        animation: intro 3s
+        animation: intro 2s
 
     h1
         font-family: $bebas
@@ -19,15 +19,23 @@
         font-size: 30px
 
     .title
-        animation: intro 1s
+        animation: open 1s
     .top
-        animation: intro 5s
+        animation: open 2s
     .bottom
-        animation: intro 3s
+        animation: open 2s
     .text
-        animation: intro 5s
+        animation: intro 1s
 
 // ----- frame da animação
+
+@keyframes open
+    0%
+        opacity: 0
+        margin-left: -100vh
+    100%
+        opacity: 1
+        margin-left: 0vh
 
 @keyframes intro
     0%
