@@ -24,7 +24,7 @@ function App() {
 	useEffect(() => {
         setTimeout(() =>{
             setLoad(true)
-        }, 0) //6500
+        }, 6500) //6500
 		setTimeout(() =>{
             setRedes(true)
         }, 8000) //8000
